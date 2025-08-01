@@ -36,7 +36,7 @@ function App() {
       <header className="App-header">
         <table style={{ direction: "rtl" }}>
           <tr>
-            <td style={{ width: "200px", verticalAlign: "top" , backgroundColor: "lightgray"}}>
+            <td style={{ width: "200px", verticalAlign: "top" , backgroundColor: "blue", color: "white"}}>
               <ol>
                 {surahs.map((surah) => (
                   <li key={surah.number}>
@@ -45,7 +45,7 @@ function App() {
                 ))}
               </ol>
             </td>
-            <td style={{ verticalAlign: "top" }}>
+            <td style={{ verticalAlign: "middle" }}>
               {aya.map((a) => (
                 <>
                   {a.text} ({a.numberInSurah})
