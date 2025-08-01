@@ -9,7 +9,11 @@ function App() {
        Test My Application V2.0 
 
        <Counter/>
+       <Counter/>
+       
+
       </header>
+
     </div>
   );
 }
