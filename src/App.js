@@ -44,7 +44,7 @@ function App() {
       <header className="App-header">
         <table style={{ direction: "rtl" }}>
           <tr>
-            <td style={{ width: "200px", verticalAlign: "top" , backgroundColor: "blue", color: "white"}}>
+            <td style={{ width: "200px", verticalAlign: "top" , backgroundColor: "red", color: "white"}}>
               <AudioPlayer id={file} />
               <ol>
                 {surahs.map((surah) => (
